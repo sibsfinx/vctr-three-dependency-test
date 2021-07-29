@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "three": "https://bitbucket.org/vectary/three.js.git#vctr-three-new"
+    "three": "https://bitbucket.org/vectary/three.js.git#meshch/chore/vctr-three-yarn"
   },
   "devDependencies": {
-    "@types/three": "https://bitbucket.org/vectary/definitelytyped.git#vctr-three-types"
+    "@types/three": "https://bitbucket.org/vectary/definitelytyped.git#meshch/chore/yarn",
+    "esm": "^3.2.25"
   }
 }
