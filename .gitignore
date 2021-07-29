@@ -1,0 +1,49 @@
+## Numerous always-ignore items
+*.diff
+*.err
+*.log
+*.swp
+*.vi
+*~
+
+## OS or Editor folders
+*.sublime-workspace
+*.sublime-projects
+.DS_Store
+.cache
+.idea
+.project
+.settings
+.tmproj
+.iml
+Thumbs.db
+desktop.ini
+nbproject
+.vscode
+
+dist
+lib
+tsconfig.tsbuildinfo
+tsconfig.build.tsbuildinfo
+_data
+build
+temp
+tmpsrc
+
+node_modules
+# yarn.lock
+# package-lock.json
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+.yarn/versions
+
+# May seem not following Yarn docs, but let's not commit caches and .pnp.js to repo for now
+# 1. Commiting cache looks like not a good practice overall
+# 2. Since .pnp.js is node_modules replacement in yarn v2, we probable can keep it ignored too
+# TODO research this further
+.pnp.*
+.yarn/cache
